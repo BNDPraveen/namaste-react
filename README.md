@@ -1,5 +1,3 @@
-# Namaste React
-
 # Namaste React - Episode 2
 
 Welcome to the second episode of my React learning journey! In this episode, I explore the basics of React and set up a simple project using npm, React, ReactDOM, and the Parcel bundler. This repository serves as a demonstration of the concepts covered in the episode.
@@ -22,8 +20,29 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/BNDPraveen/namaste-react.git
 
+2. Navigate to the project directory:
+   ```bash
+   cd namaste-react
+   
+3. Install dependencies:
+   ```bash
+   npm install
 
-### Why parcel
+4. Run the project using Parcel:
+   ```bash
+   npx parcel index.html
+ 
+5. Open your browser:
+Open your browser and go to http://localhost:1234 to view the React app.
+
+## Learning Highlights
+- Installation of React and ReactDOM using npm.
+- Setting up a simple React component using createElement.
+- Integrating React with the HTML file and mounting the app using ReactDOM.createRoot.
+- Utilizing Parcel as a zero-config bundler for the project.
+
+
+## Why parcel
 
 - Create Dev Build
 - Creates Local Server
