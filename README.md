@@ -44,7 +44,7 @@ Open your browser and go to http://localhost:1234 to view the React app.
 
 ## Why parcel
 
-- Create Dev Build
+- Creates Dev Build
 - Creates Local Server
 - HMR = Hot Module Replacement
 - File Watching Algorithm - written in c++
