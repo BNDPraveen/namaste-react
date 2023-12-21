@@ -1,6 +1,6 @@
 # Namaste React
 
-##parcel
+## parcel
 
 - Create Dev Build
 - Creates Local Server
