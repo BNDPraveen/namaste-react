@@ -1,6 +1,6 @@
 # Namaste React - Episode 2
 
-Welcome to the second episode of my React learning journey! In this episode, I explore the basics of React and set up a simple project using npm, React, ReactDOM, and the Parcel bundler. This repository serves as a demonstration of the concepts covered in the episode.
+Welcome to the second episode of my React learning journey! In this episode, I explore the basics of React and set up a simple project using npm, react, react-dom, and the parcel bundler. This repository serves as a demonstration of the concepts covered in the episode.
 
 ## Project Structure
 
@@ -9,8 +9,8 @@ Welcome to the second episode of my React learning journey! In this episode, I e
 - **app.js**: The JavaScript file where the React code is written and bundled using Parcel.
 
 ### Dependencies
-- **React and ReactDOM**: Core libraries for building user interfaces in React.
-- **Parcel**: A fast, zero-configuration web application bundler.
+- **react and react-dom**: Core libraries for building user interfaces in React.
+- **parcel**: A fast, zero-configuration web application bundler.
 
 ## Getting Started
 
