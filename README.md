@@ -1,3 +1,2 @@
 # Namaste React
 
-s
