@@ -1,4 +1,4 @@
-# Namaste React - Episode 2
+# Namaste React - Episode 3
 
 Welcome to the second episode of my React learning journey! In this episode, I explore the basics of React and set up a simple project using npm, react, react-dom, and the parcel bundler. This repository serves as a demonstration of the concepts covered in the episode.
 
