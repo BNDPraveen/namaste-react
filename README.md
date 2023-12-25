@@ -30,7 +30,7 @@ To experience the food ordering app, follow these simple steps:
 4. Start the Project::
 
    ```bash
-   npx start
+   npm start
 
    ```
 
