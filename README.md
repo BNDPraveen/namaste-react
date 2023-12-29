@@ -1,6 +1,6 @@
-# Namaste React - Episode 4
+# Namaste React - Episode 5
 
-Welcome to the fourth episode of my React learning journey! In this episode, I delved into several advanced concepts and best practices, building on the foundation laid in previous episodes.
+Welcome to the fifth episode of my React learning journey! In this episode, I delved into several advanced concepts and best practices, building on the foundation laid in previous episodes.
 
 ## Running the Food Delivery App
 
@@ -39,26 +39,31 @@ To experience the food ordering app, follow these simple steps:
 
 ## New Learnings
 
-### 1. Props Mastery
+### 1. File Structuring and Component Naming
 
-Explored the power of React props, mastering the art of passing data between components. Leveraged props to enhance component communication and build more dynamic and interactive user interfaces.
+Learned about effective file structuring by breaking down App.js into smaller files, naming them exactly like the component, and storing all the React code in the src folder. Emphasized the importance of named and default imports and exports for better organization and maintainability.
 
-### 2. Destructuring On the Fly
+## 2. Using useState React Hook
 
-Embraced the elegance of destructuring in JavaScript, enhancing code readability and simplifying the extraction of values from arrays and objects.
+In the `Body.js` file, the `useState` React Hook is utilized to manage the state of the restaurant list, enabling dynamic updates and rendering in response to user interactions. Here's a breakdown of its usage:
 
-### 3. Config-Driven UI
+- **State Initialization:**
 
-Delved into the concept of a config-driven UI, allowing for a more flexible and customizable user interface. Explored the benefits of separating configuration from code for rapid prototyping and easy modifications.
+  - The state variable, `listOfRestaurant`, is declared using the `useState` Hook and initialized with data from `mockdata.js`.
 
-### 4. Optional Chaining
+- **State Update:**
 
-Unlocked the potential of optional chaining in JavaScript, a powerful feature for safely accessing nested properties, especially in scenarios where null or undefined values may be encountered.
+  - The `setListOfRestaurant` function, provided by the `useState` Hook, is employed to update the state. This allows for seamless modification of the restaurant list based on various triggers.
 
-### 5. Unique Key Property
+- **User Interaction Example:**
 
-Mastered the importance of providing a unique 'key' property when mapping or looping through elements in React. This practice optimizes rendering and assists React in efficiently identifying components.
+  - In the provided example, clicking the "Top Rated Restaurants" button triggers a filter function. This function filters the restaurant list based on a specified condition (e.g., restaurants with an average rating > 4), and then updates the state using `setListOfRestaurant`.
 
-### 6. Building a Food Ordering App
+- **Dynamic Rendering:**
+  - The updated state is utilized to dynamically render the filtered restaurant list, providing an interactive and responsive user experience.
+
+This use of the `useState` Hook exemplifies its role in managing local component state, enabling React components to efficiently respond to changes and deliver a more engaging user interface.
+
+### 3. Building a Food Ordering App
 
 Applied the accumulated knowledge to build a food ordering app. Practiced the integration of React concepts, ensuring a smooth and interactive user experience.
