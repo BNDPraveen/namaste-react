@@ -64,6 +64,6 @@ In the `Body.js` file, the `useState` React Hook is utilized to manage the state
 
 This use of the `useState` Hook exemplifies its role in managing local component state, enabling React components to efficiently respond to changes and deliver a more engaging user interface.
 
-### Building a Food Ordering App
+### 9. Updated Food Ordering App
 
 Applied the accumulated knowledge to build a food ordering app. Practiced the integration of React concepts, ensuring a smooth and interactive user experience.
