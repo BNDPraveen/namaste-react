@@ -39,11 +39,11 @@ To experience the food ordering app, follow these simple steps:
 
 ## New Learnings
 
-### 1. File Structuring and Component Naming
+### 7. File Structuring and Component Naming
 
 Learned about effective file structuring by breaking down App.js into smaller files, naming them exactly like the component, and storing all the React code in the src folder. Emphasized the importance of named and default imports and exports for better organization and maintainability.
 
-## 2. Using useState React Hook
+## 8. Using useState React Hook
 
 In the `Body.js` file, the `useState` React Hook is utilized to manage the state of the restaurant list, enabling dynamic updates and rendering in response to user interactions. Here's a breakdown of its usage:
 
@@ -64,6 +64,6 @@ In the `Body.js` file, the `useState` React Hook is utilized to manage the state
 
 This use of the `useState` Hook exemplifies its role in managing local component state, enabling React components to efficiently respond to changes and deliver a more engaging user interface.
 
-### 3. Building a Food Ordering App
+### Building a Food Ordering App
 
 Applied the accumulated knowledge to build a food ordering app. Practiced the integration of React concepts, ensuring a smooth and interactive user experience.
