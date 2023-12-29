@@ -1,6 +1,6 @@
-# Namaste React - Episode 5
+# Namaste React - Episode 6
 
-Welcome to the fifth episode of my React learning journey! In this episode, I delved into several advanced concepts and best practices, building on the foundation laid in previous episodes.
+Welcome to the sixth episode of my React learning journey! In this episode, I delved into several advanced concepts and best practices, building on the foundation laid in previous episodes.
 
 ## Running the Food Delivery App
 
@@ -39,31 +39,22 @@ To experience the food ordering app, follow these simple steps:
 
 ## New Learnings
 
-### 1. File Structuring and Component Naming
+### 1. useEffect Hook
 
-Learned about effective file structuring by breaking down App.js into smaller files, naming them exactly like the component, and storing all the React code in the src folder. Emphasized the importance of named and default imports and exports for better organization and maintainability.
+Explored and implemented the useEffect hook to manage side effects in my Food Ordering App. This powerful React hook allowed me to handle asynchronous operations, data fetching, and other tasks that occur during the lifecycle of a component. The useEffect hook played a crucial role in ensuring a smooth and efficient user interface.
 
-## 2. Using useState React Hook
+### 2. Shimmer UI
 
-In the `Body.js` file, the `useState` React Hook is utilized to manage the state of the restaurant list, enabling dynamic updates and rendering in response to user interactions. Here's a breakdown of its usage:
+Integrated shimmer UI to enhance the visual appeal of the Food Ordering App. Shimmer UI provides a sleek loading animation, giving users a seamless experience while waiting for content to load. This addition not only improved the overall aesthetics of the app but also contributed to a more polished and professional appearance.
 
-- **State Initialization:**
+### 3. Need for State Variables
 
-  - The state variable, `listOfRestaurant`, is declared using the `useState` Hook and initialized with data from `mockdata.js`.
+Emphasized the importance of state variables in React, particularly in the context of the Food Ordering App. Leveraging state variables allowed me to manage and update the application's state, ensuring that the user interface accurately reflected the underlying data. This dynamic approach improved interactivity and responsiveness, providing users with a more engaging experience.
 
-- **State Update:**
+### 4. Search Feature Implementation
 
-  - The `setListOfRestaurant` function, provided by the `useState` Hook, is employed to update the state. This allows for seamless modification of the restaurant list based on various triggers.
+Implemented a search feature in the Food Ordering App, allowing users to easily find their desired food items. This feature involved utilizing state variables to track user input and dynamically updating the displayed results. The search functionality not only improved the user experience but also showcased the practical application of React concepts in real-world scenarios.
 
-- **User Interaction Example:**
-
-  - In the provided example, clicking the "Top Rated Restaurants" button triggers a filter function. This function filters the restaurant list based on a specified condition (e.g., restaurants with an average rating > 4), and then updates the state using `setListOfRestaurant`.
-
-- **Dynamic Rendering:**
-  - The updated state is utilized to dynamically render the filtered restaurant list, providing an interactive and responsive user experience.
-
-This use of the `useState` Hook exemplifies its role in managing local component state, enabling React components to efficiently respond to changes and deliver a more engaging user interface.
-
-### 3. Building a Food Ordering App
+### 5. Building a Food Ordering App
 
 Applied the accumulated knowledge to build a food ordering app. Practiced the integration of React concepts, ensuring a smooth and interactive user experience.

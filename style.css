@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   border: 1px solid black;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -45,4 +46,31 @@ h4 {
 
 .res-card img {
   width: 100%;
+}
+
+.shimmer-cards {
+  width: 180px;
+  padding: 10px;
+  margin: 10px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login {
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+}
+
+.Filter-btn {
+  margin-left: 30px;
 }
