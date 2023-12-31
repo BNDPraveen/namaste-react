@@ -9,10 +9,10 @@ React Router Dom emerged as a pivotal tool for managing navigation and routing i
 ### 1. Route Configuration
 Understanding the route configuration was crucial. Two notable aspects were highlighted:
 
-- `createBrowserRouter`:
+- `createBrowserRouter` :
 The createBrowserRouter function proved instrumental in adopting the HTML5 history API. This not only ensures cleaner URLs but also contributes to a more user-friendly experience.
 
-- `RouterProvider`
+- `RouterProvider` :
 The RouterProvider component became the bridge for making router context available throughout our component tree. This step is foundational for enabling components to interact with the router.
 
 ### 2. Children Routes & Outlet
