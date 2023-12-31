@@ -74,3 +74,8 @@ h4 {
 .Filter-btn {
   margin-left: 30px;
 }
+
+.link {
+  color: black;
+  text-decoration: none;
+}
