@@ -5,7 +5,6 @@ import { SWIGGY_URL } from "../utils/constants";
 import { Link } from "react-router-dom";
 
 const Body = () => {
-  console.log(useState());
   // Local State Variable - Super powerful variable
   const [listOfRestaurant, setlistOfRestaurant] = useState([]);
   const [filteredRestaurant, SetFilteredRestaurant] = useState([]);
@@ -23,6 +22,7 @@ const Body = () => {
     console.log("api called");
 
     const json = await data.json();
+    console.log(json);
 
     // Optional chaining
     setlistOfRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
@@ -60,7 +60,8 @@ const Body = () => {
           className="Filter-btn"
           onClick={() => {
             const filteredList = listOfRestaurant.filter((res) => res.info.avgRating > 4);
-            setlistOfRestaurant(filteredList);
+            console.log(filteredList);
+            SetFilteredRestaurant(filteredList);
           }}
         >
           Top Rated Restaurants
@@ -72,6 +73,7 @@ const Body = () => {
             <RestaurantCard resData={restaurant} />
           </Link>
         ))}
+        {console.log("Rendered")}
       </div>
     </div>
   );
