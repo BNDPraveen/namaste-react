@@ -1,6 +1,6 @@
-# Namaste React - Episode 8
+# Namaste React - Episode 11
 
-Welcome to the eighth episode of my React learning journey! In this episode, I delved into several advanced concepts and best practices, building on the foundation laid in previous episodes.
+Welcome to the eleventh episode of my React learning journey! In this episode, I delved into several advanced concepts and best practices, building on the foundation laid in previous episodes.
 
 ## Running the Food Delivery App
 
@@ -39,4 +39,10 @@ To experience the food ordering app, follow these simple steps:
 
 ## New Learnings
 
-### 1.
+### 1. Accordian
+
+### 2. Context API
+
+### 3. Higher order components
+
+### 4. state lifting up
